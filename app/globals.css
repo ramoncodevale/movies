@@ -6,6 +6,7 @@
 
 body {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
+  background-color: var(--black);
 }
 
 :root {

@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect } from "react"
+import Header from "./_components/header/page"
 
 const Home = () => {
   useEffect(() => {
@@ -21,7 +22,7 @@ const Home = () => {
 
   return (
     <div>
-      <h1>Veja os dados no console</h1>
+      <Header />
     </div>
   )
 }
